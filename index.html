@@ -11,18 +11,32 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    “ I’ve been interested in coding for a while but never taken the jump, until
-    now. I couldn’t recommend this course enough. I’m now in the job of my
-    dreams and so excited about the future. ” Tanya Sinclair UX Engineer “ If
-    you want to lay the best foundation possible I’d recommend taking this
-    course. The depth the instructors go into is incredible. I now feel so
-    confident about starting up as a professional developer. ” John Tarkpor
-    Junior Front-end Developer
+    <section class="container">
+      <div class="slider">
+        <div class="slide">
+          <div class="slide-text">
+            <p class="testimonial-text" id="text">
+              “ I’ve been interested in coding for a while but never taken the
+              jump, until now. I couldn’t recommend this course enough. I’m now
+              in the job of my dreams and so excited about the future. ”
+            </p>
+            <p class="author" id="author">Tanya Sinclair</p>
+            <p class="job" id="job">UX Engineer</p>
+          </div>
+          <div class="slide-img">
+            <img id="img" src="./media/image-tanya.jpg" alt="img" />
+          </div>
+        </div>
+        <div class="button">
+          <div class="next"></div>
+          <div class="prev"></div>
+        </div>
+      </div>
+    </section>
 
     <script src="index.js"></script>
   </body>
